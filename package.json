@@ -1,6 +1,15 @@
 {
-  "name": "@Reinhardt/cli",
-  "version": "1.0.0",
-  "main": "index.js",
-  "license": "MIT"
+    "name": "@reinhardt/cli",
+    "version": "1.0.0",
+    "main": "index.js",
+    "license": "MIT",
+    "bin": {
+        "reinhardt": "bin/reinhardt.js"
+    },
+    "dependencies": {
+        "@types/inquirer": "^6.5.0",
+        "@types/node": "^12.7.2",
+        "commander": "^3.0.0",
+        "inquirer": "^6.5.1"
+    }
 }
